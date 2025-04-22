@@ -1,0 +1,16 @@
+.ic{
+   background-color: var(--primary);
+   border-radius: 50%;
+   padding: 5px;
+   font-size: 20px;
+}
+
+.header-image img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 836px) {
+    .addres-header, .mail-header, .contact-header{
+        display: none;
+    }
+}
